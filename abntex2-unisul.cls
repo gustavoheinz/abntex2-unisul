@@ -82,7 +82,8 @@
 \graphicspath{{./img//}} % Diretório das imagens
 
 %% Tamanho e alinhamento das legendas
-\RequirePackage[singlelinecheck=false,justification=justified,font=footnotesize]{caption}
+\RequirePackage[singlelinecheck=false,justification=justified,font=normalsize]{caption}
+\RequirePackage[singlelinecheck=false,justification=justified,font=footnotesize]{subcaption}
 
 %% Citações
 \RequirePackage[hyphenbreaks]{breakurl}
