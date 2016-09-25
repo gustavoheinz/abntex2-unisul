@@ -124,12 +124,15 @@
             \bfseries
 
             \MakeUppercase\imprimirinstituicao\\
+            \mdseries
             \MakeUppercase\imprimirautor
 
+            \bfseries
             \vfill
             \MakeUppercase\imprimirtitulo
             \vfill
 
+            \mdseries
             \imprimirlocal\\
             \imprimirdata
         \end{center}
@@ -269,6 +272,7 @@
 
 %% Sumário
 \renewcommand*{\cftsectionfont}{\normalfont}
+\renewcommand*{\cftsubsectionfont}{\normalfont\textbf}
 \renewcommand*{\cftsubsubsectionfont}{\normalfont}
 \renewcommand*{\cftparagraphfont}{\normalfont\itshape}
 
